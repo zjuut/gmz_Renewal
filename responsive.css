@@ -484,6 +484,11 @@ section.style .product {
     font-size: 0.95em;
     line-height: 1.5em;
     overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 13;
+
   }
   .post_txt_wr .post_txt span {
     display: none;
@@ -528,6 +533,7 @@ section.style .product {
     display: none;
   }
   .sns_post {
+    padding: 0 20px;
     overflow-x: auto;
   }
   .sns_post::-webkit-scrollbar {
@@ -536,7 +542,6 @@ section.style .product {
   .sns_post ul {
     gap: 10px;
     width: 815px;
-    padding: 0 20px;
   }
   .sns_post li {
     width: 155px;
@@ -747,7 +752,6 @@ section.style .product {
   }
   .menu_hd span {
     font-size: 1.2em;
-    border: 1px solid #000;
   }
   .menu_hd span::before {
     content: '\e964';
