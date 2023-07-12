@@ -102,6 +102,21 @@ $(function(){
   })
 
 
+  $(window).scroll(function(){
+    if($(window).scrollTop() > 80){
+      $('header').addClass('fixed');
+      $('.top_btn').fadeIn('fast');
+    }
+    else {
+      $('header').removeClass('fixed');
+      $('.top_btn').fadeOut('fast');
+    }
+  })
+
+  $('.top_btn').click(function(){
+    $(window).scrollTop(0);
+  })
+
 
 })
 
@@ -141,20 +156,7 @@ $(function(){
     $('.main_banner .index .total').text($('.main_banner .slide').length)
 
 
-    $(window).scroll(function(){
-      if($(window).scrollTop() > 80){
-        $('header').addClass('fixed');
-        $('.top_btn').fadeIn('fast');
-      }
-      else {
-        $('header').removeClass('fixed');
-        $('.top_btn').fadeOut('fast');
-      }
-    })
-
-    $('.top_btn').click(function(){
-      $(window).scrollTop(0);
-    })
+    
 
 
     // $('.post_img img')를

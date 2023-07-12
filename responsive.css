@@ -40,9 +40,11 @@
     position: unset;
     transform: translate(-18px, 5px);
   }
-  .hd_mid .m_hd_icon {}
+  .hd_mid .m_hd_icon {
+    display: unset;
+  }
   .hd_mid .m_hd_icon .search {
-    margin-right: 15px;
+    margin-right: 12px;
   }
   .hd_mid .m_hd_icon img {
     width: 26px;
@@ -179,13 +181,14 @@
   }
   .product_tag > div {
     width: 38px;
+    height: 16px;
   }
   .product_tag > div::after {
     font-size: 0.65em;
     transform: translateY(-6px);
   }
   .product_tag .soldout {
-    width: 64px;
+    width: 60px;
   }
 
   /* Section : Main : Banner */
@@ -541,7 +544,7 @@
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     position: absolute;
-    top: 190px;
+    top: 195px;
   }
   .ft_top .inner {
     width: 100%;
@@ -552,6 +555,7 @@
   }
   .ft_top a {
     font-size: 0.85em;
+    line-height: 40px;
   }
   .ft_top .policy {
     gap: unset;
@@ -575,17 +579,21 @@
   }
   .ft_btm .company {
     text-align: center;
-    margin-top: 110px;
+    margin-top: 140px;
   }
 
   .ft_tit {
-    font-size: 1em;
+    font-size: 0.95em;
     margin-bottom: 10px;
   }
   .ft_btm .cs .tel {
+    font-size: 1em;
     margin-bottom: 5px;
   }
-
+  .ft_btm .info {
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
   .ft_btm .bank b {
     font-weight: 400;
   }
@@ -608,7 +616,7 @@
     transform: translateY(1px) rotate(180deg);
   }
   .ft_btm .company .info {
-    padding: 12px;
+    padding: 8px;
     display: none;
   }
   .ft_btm .company span {
@@ -649,24 +657,15 @@
 
   /* Modal : Top Btn */
   .top_btn {
-    background-color: #fff;
-    border: 1px solid #eee;
-    box-shadow: 0px 0px 3px rgba(119, 119, 119, 0.08);
     width: 45px;
     height: 45px;
-    position: fixed;
     bottom: 100px;
     right: 20px;
     z-index: 100;
-    border-radius: 10px;
   }
   .top_btn i {
     font-size: 1.8em;
-    width: 100%;
-    height: 100%;
-    text-align: center;
     line-height: 45px;
-    color: #444;
   }
 
   /* Modal : M Under Bar */
@@ -710,6 +709,7 @@
     background-color: #fff;
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
 
   .menu_hd {
@@ -727,17 +727,18 @@
     padding-bottom: 0;
     position: relative;
   }
+  .menu_hd span {
+    font-size: 1.2em;
+    border: 1px solid #000;
+  }
   .menu_hd span::before {
     content: '\e964';
     font-family: xeicon;
     font-size: 0.95em;
     margin-right: 4px;
   }
-  .menu_hd span {
-    font-size: 1.35em;
-  }
   .menu_hd i {
-    font-size: 0.8em;
+    font-size: 0.75em;
     color: #777;
     transform: translateY(-1px);
   }
