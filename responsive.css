@@ -528,7 +528,6 @@ section.style .product {
     display: none;
   }
   .sns_post {
-    padding: 0 20px;
     overflow-x: auto;
   }
   .sns_post::-webkit-scrollbar {
@@ -537,6 +536,7 @@ section.style .product {
   .sns_post ul {
     gap: 10px;
     width: 815px;
+    padding: 0 20px;
   }
   .sns_post li {
     width: 155px;
@@ -544,8 +544,6 @@ section.style .product {
   .sns_post img {
     border-radius: 12px;
   }
-
-
 
   /* FOOTER */
   footer {
