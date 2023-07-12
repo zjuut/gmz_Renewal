@@ -126,7 +126,7 @@
   }
   h4.product_tit {
     font-size: 0.85em;
-    line-height: 1.3em;
+    line-height: 1.4em;
   }
 
   
@@ -155,7 +155,7 @@
   }
   
   .product_prc {
-    margin-top: 4px;
+    margin-top: 5px;
   }
   .product_prc .fix {
     font-size: 0.85em;
@@ -174,8 +174,8 @@
     padding: 0;
     display: block;
     position: absolute;
-    top: -1px;
-    left: -1px;
+    top: 0;
+    left: 0;
   }
   .product_tag > div {
     font-weight: 300;
@@ -637,20 +637,20 @@
     background-color: #fff;
     border: 1px solid #eee;
     box-shadow: 0px 0px 3px rgba(119, 119, 119, 0.08);
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     position: fixed;
-    bottom: 80px;
+    bottom: 100px;
     right: 20px;
     z-index: 100;
     border-radius: 10px;
   }
   .top_btn i {
-    font-size: 1.7em;
+    font-size: 1.8em;
     width: 100%;
     height: 100%;
     text-align: center;
-    line-height: 42px;
+    line-height: 45px;
     color: #444;
   }
 
@@ -669,7 +669,7 @@
   .m_under_bar .inner {
     width: 100%;
     height: 60px;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
   }
   .m_under_bar a {
