@@ -480,13 +480,9 @@ section.style .product {
     padding: 20px 15px;
   }
   .post_txt_wr .post_txt p {
-    height: 280px;
+    height: 19.5em;
     font-size: 0.95em;
     line-height: 1.5em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
     -webkit-line-clamp: 13;
 
   }
