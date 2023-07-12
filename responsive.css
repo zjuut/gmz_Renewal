@@ -126,6 +126,7 @@
   }
   h4.product_tit {
     font-size: 0.85em;
+    line-height: 1.3em;
   }
 
   
@@ -149,20 +150,23 @@
     border-radius: 12px;
   }
   .product_sub {
-    margin-top: 4px;
+    margin-top: 2px;
     padding: 0 4px;
   }
   
+  .product_prc {
+    margin-top: 4px;
+  }
   .product_prc .fix {
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: 300;
   }
   h5.prc {
-    font-size: 1.2em;
-    margin-top: 2px;
+    font-size: 1em;
+    font-weight: 500;
   }
   h5.prc::after {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 
   .product_tag {
