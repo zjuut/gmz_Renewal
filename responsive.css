@@ -85,7 +85,7 @@
     content: '';
     display: block;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: #222;
     position: absolute;
     bottom: 0;
@@ -162,7 +162,7 @@
     font-weight: 300;
   }
   h5.prc {
-    font-size: 1em;
+    font-size: 1.05em;
     font-weight: 500;
   }
   h5.prc::after {
@@ -178,12 +178,11 @@
     left: 0;
   }
   .product_tag > div {
-    font-weight: 300;
     width: 38px;
-    line-height: 11px;
   }
   .product_tag > div::after {
-    font-size: 0.6em;
+    font-size: 0.65em;
+    transform: translateY(-6px);
   }
   .product_tag .soldout {
     width: 64px;
