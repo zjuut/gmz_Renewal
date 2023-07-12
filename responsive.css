@@ -94,9 +94,11 @@
     display: inline-block;
     line-height: 40px;
     color: #777;
+    font-weight: 400;
   }
   .hd_btm_lt .gnb li:first-child a {
     color: #222;
+    font-weight: 500;
   }  
   .hd_btm_rt {
     display: none;
@@ -118,15 +120,13 @@
   }
   h3 {
     font-size: 1.35em;
-    font-weight: 600;
   }
   h3 + p {
     font-size: 1em;
-    font-weight: 300;
   }
   h4.product_tit {
     font-size: 0.85em;
-    line-height: 1.4em;
+    line-height: 1.5em;
   }
 
   
@@ -155,7 +155,7 @@
   }
   
   .product_prc {
-    margin-top: 5px;
+    margin-top: 6px;
   }
   .product_prc .fix {
     font-size: 0.85em;
@@ -271,7 +271,7 @@
   }
   section.theme .theme_sub,
   section.brand .theme_sub {
-    margin-top: 7px;
+    margin-top: 2px;
     padding: 0 4px;  
   }
 
@@ -423,6 +423,9 @@
   .post_txt_wr .profile > :not(:last-child)::after {
   content: '';
   }
+  .post_txt_wr .profile .grade {
+    font-size: 1em;
+  }
   .post_txt_wr .profile .grade::after {
     content: '|';
     font-size: 0.8em;
@@ -448,8 +451,9 @@
     padding: 20px 15px;
   }
   .post_txt_wr .post_txt p {
-    height: 290px;
-    font-weight: 300;
+    height: 280px;
+    font-size: 0.95em;
+    line-height: 1.5em;
     overflow: hidden;
   }
   .post_txt_wr .post_txt span {
