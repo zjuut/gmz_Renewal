@@ -138,8 +138,10 @@ button {
   display: inline-block;
   transform: translateY(2px);
 }
-.hd_btm_lt .menu:hover {
-  color: #222;
+@media (hover: hover){
+  .hd_btm_lt .menu:hover {
+    color: #222;
+  }
 }
 .hd_btm_lt .gnb_wr {
   display: inline-block;
@@ -170,8 +172,10 @@ button {
   font-weight: 500;
   color: #444;
 }
-.hd_btm_lt .gnb li:hover a {
-  color: #222;
+@media (hover: hover){
+  .hd_btm_lt .gnb li:hover a {
+    color: #222;
+  }
 }
 .hd_btm_rt {
   width: 250px;
@@ -225,9 +229,11 @@ button {
   height: 38px;
   position: relative;
 }
-.hd_btm .lnb_hd_tit:hover,
-.hd_btm .lnb_hd_tit.active {
-  background-color: #f7f7f7;
+@media (hover: hover){
+  .hd_btm .lnb_hd_tit:hover,
+  .hd_btm .lnb_hd_tit.active {
+    background-color: #f7f7f7;
+  }
 }
 .hd_btm .lnb_hd_tit a {
   font-family: 'Roboto', sans-serif;
@@ -253,13 +259,15 @@ button {
   color: #444;
   font-size: 14px;
 }
-.hd_btm .lnb_hd_tit_bd:hover a,
-.hd_btm .lnb_hd_tit_bd.active a {
-  color: #222;
-  font-weight: 500;
-}
-.hd_btm .lnb_hd_tit_bd a:hover {
-  text-decoration: underline;
+@media (hover: hover){
+  .hd_btm .lnb_hd_tit_bd:hover a,
+  .hd_btm .lnb_hd_tit_bd.active a {
+    color: #222;
+    font-weight: 500;
+  }
+  .hd_btm .lnb_hd_tit_bd a:hover {
+    text-decoration: underline;
+  }
 }
 
 .hd_btm .lnb_ad {
