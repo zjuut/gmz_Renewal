@@ -14,17 +14,17 @@
 		<g>
 			
 				<polyline fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-				47.256,47.995 3.718,47.995 3.718,10.65 47.256,10.65 47.256,47.995 			"/>
+				47.256,47.091 3.718,47.091 3.718,11.554 47.256,11.554 47.256,47.091 			"/>
 			
 				<polyline fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-				47.256,23.035 58.794,23.035 66.282,36.653 66.282,47.995 47.256,47.995 			"/>
+				47.256,23.339 58.794,23.339 66.282,36.298 66.282,47.091 47.256,47.091 			"/>
 			
-				<circle fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="16.089" cy="54.672" r="6.677"/>
+				<circle fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="16.089" cy="53.768" r="6.677"/>
 			
-				<circle fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="47.996" cy="54.673" r="6.677"/>
+				<circle fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="47.996" cy="53.769" r="6.677"/>
 			
 				<polyline fill="none" stroke="#444444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-				53.645,33.617 64.613,33.617 58.794,23.035 			"/>
+				53.645,33.409 64.613,33.409 58.794,23.339 			"/>
 		</g>
 	</g>
 </g>
