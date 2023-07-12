@@ -59,7 +59,7 @@
     display: none;
   }
   .hd_btm_inner {
-    height: 40px;
+    height: 45px;
   }
   .hd_btm_lt {
     height: 100%;
@@ -92,7 +92,7 @@
   }
   .hd_btm_lt .gnb a {
     display: inline-block;
-    line-height: 40px;
+    line-height: 45px;
     color: #777;
     font-weight: 400;
   }
@@ -119,7 +119,7 @@
     padding-left: 20px;
   }
   h3 {
-    font-size: 1.35em;
+    font-size: 1.3em;
   }
   h3 + p {
     font-size: 1em;
@@ -180,9 +180,10 @@
   .product_tag > div {
     font-weight: 300;
     width: 38px;
+    line-height: 11px;
   }
   .product_tag > div::after {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
   .product_tag .soldout {
     width: 64px;
@@ -253,7 +254,8 @@
     display: block;
   }
   .top_ad_sub p {
-    font-size: 1.07em;
+    font-size: 0.95em;
+    line-height: 1.4em;
   }
   section.top_ad .next_btn {
     display: none;
@@ -271,9 +273,14 @@
   }
   section.theme .theme_sub,
   section.brand .theme_sub {
-    margin-top: 2px;
-    padding: 0 4px;  
+    margin-top: 4px;
+    padding: 0 4px;
   }
+  section.theme .theme_sub p,
+  section.brand .theme_sub p {
+    margin-top: 2px;
+  }
+  
 
   /* Section : Theme */
   section.theme {
@@ -281,7 +288,7 @@
   }
   section.theme ul {
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
   }
 
   /* Section : Brand */
@@ -470,6 +477,10 @@
     width: 60px;
     height: 60px;
   }
+  section.review .product_prc {
+    margin-top: 2px;
+  }
+
 
   /* Section : SNS */
   section.sns {
@@ -487,8 +498,9 @@
     margin-bottom: 40px;
   }
   .profile_img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
   }
   .sns_profile .profile_user .follow {
     display: none;
