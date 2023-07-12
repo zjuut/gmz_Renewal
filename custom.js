@@ -51,9 +51,6 @@ $(function(){
 
     $('.content_tit p:eq(0)').hide();
     $('.content_tit p:eq(1)').show();
-
-    $('section.style .products').css('transform','translateX(-670px)');
-  
     })
   
   $('section.style .prev_btn').click(function(){
@@ -62,8 +59,6 @@ $(function(){
 
     $('.content_tit p:eq(0)').show();
     $('.content_tit p:eq(1)').hide();
-
-    $('section.style .products').css('transform','translateX(0)');
   })
   
   /* Section : Brand */
@@ -123,6 +118,15 @@ $(function(){
 $(function(){
   if(window.matchMedia('screen and (min-width : 1024px)').matches){
 
+  /* Section : Style */
+  $('section.style .next_btn').click(function(){
+    $('section.style .products').css('transform','translateX(-670px)');
+    })
+
+  $('section.style .prev_btn').click(function(){
+    $('section.style .products').css('transform','translateX(0)');
+  })
+  
 
 
 
@@ -136,6 +140,8 @@ $(function(){
     $('.swiper-slide:eq(0) img').attr('src','images/m-mainbanner-01.jpg');
     $('.swiper-slide:eq(1) img').attr('src','images/m-mainbanner-02.jpg');
     $('.swiper-slide:eq(2) img').attr('src','images/m-mainbanner-03.jpg');
+
+    // $('section.style').prepend($('section.style h2'));
     
     $('.ft_btm').append($('.ft_top .sns'));
 
@@ -171,6 +177,17 @@ $(function(){
     $('.product_wr').wrap('<div class="product_box"></div>')
     $('section.brand ul').wrap('<div class="product_box"></div>')
 
+
+      /* Section : Style */
+  $('section.style .next_btn').click(function(){
+    $('section.style .products > li:eq(0)').hide();
+    $('section.style .products > li:eq(1)').show();
+    })
+
+  $('section.style .prev_btn').click(function(){
+    $('section.style .products > li:eq(0)').show();
+    $('section.style .products > li:eq(1)').hide();
+  })
 
 
 

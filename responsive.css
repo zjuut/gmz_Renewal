@@ -143,6 +143,7 @@
   .product_wr {
     width: 650px;
     gap: 40px 10px;
+
   }
   .product {
     width: 155px;
@@ -319,25 +320,30 @@
     width: 100%;
     padding: 0;
   }
-  section.style .control,
-  section.review .control {
-    display: none;
-  }
-
   
   /* Section : Style */
   section.style {
-    background: none;
+    background: unset;
+    position: unset;
     margin-bottom: 70px;
   }
+  section.style .bg_img {
+    position: unset;
+    background-color: #f7f7f7;
+    height: 250px;
+    overflow: hidden;
+  }
+  section.style .bg_img img {
+    height: 300px;
+    object-position: right -35px;
+  }
+  
   section.style .inner {
     height: auto;
-    position: relative;
   }
 
   section.style h2.section_tit {
-    position: absolute;
-    top: 135px;
+    margin-top: -50px;
   }
 
   section.style .content_wr {
@@ -345,18 +351,36 @@
     overflow: unset;
   }
   section.style .content_tit_wr {
-    height: 280px;
-    background: url(images/style-bg-01.png) #f7f7f7 no-repeat center right;
+    width: 100%;
     background-size: cover;
-    padding: 25px 20px;
+    padding: 0 20px;
+    padding-top: 15px;
+    position: relative;
   }
   section.style.change .content_tit_wr {
-    background: url(images/style-bg-02.png) #f7f7f7 no-repeat center right;
     background-size: cover;
   }
   section.style .content_tit p {
-    font-size: 1.45em;
+    font-size: 1.3em;
+    font-weight: 500;
   }
+  section.style .control {
+  }
+  section.style .control > button {
+  width: 35px;
+  height: 35px;
+}
+section.style .control > button::after {
+  font-size: 1.3em;
+  line-height: 31px;
+}
+section.style .control > .prev_btn::after {
+  transform: translateX(-1px);
+}
+section.style .control > .next_btn::after {
+  transform: translateX(1px);
+}
+
   section.style .products {
     width: 100%;
     gap: 10px;
@@ -385,6 +409,10 @@
   }
   section.review .inner {
     height: auto;
+  }
+
+  section.review .control {
+    display: none;
   }
 
   section.review .content_wr {
