@@ -137,13 +137,16 @@
     display: none;
   }
   .product_wr {
-    width: 690px;
+    /* width: 690px; */
     gap: 40px 10px;
     padding: 0 20px;
   }
   .product {
-    width: 155px;
     position: relative;
+    border: 1px solid #000;
+  }
+  .product a {
+    width: 155px;
   }
   .product_img {
     border-radius: 12px;
@@ -306,12 +309,18 @@
     scroll-snap-type: X mandatory;
   }
   section.brand ul {
+    /* width: 100%; */
     gap: 10px;
-    width: 1640px;
+    overflow-x: auto;
+    padding: 0 20px;
+    /* border: 1px solid #000; */
+    /* display: block; */
   }
   section.brand li {
-    width: 320px;
     scroll-snap-align: center;
+  }
+  section.brand li a {
+    width: 320px;
   }
 
   /* Section : Style , Review : Common */
@@ -539,7 +548,7 @@ section.style .product {
     gap: 10px;
     width: 815px;
   }
-  .sns_post li {
+  .sns_post a {
     width: 155px;
   }
   .sns_post img {
