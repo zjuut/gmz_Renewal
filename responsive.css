@@ -116,7 +116,7 @@
   h2.section_tit {
     font-size: 1.6em;
     margin-bottom: 20px;
-    padding-left: 20px;
+    padding: 0 20px;
   }
   h3 {
     font-size: 1.3em;
@@ -194,8 +194,10 @@
     margin-bottom: 0;
   }
   .swiper-slide {
-    height: 280px;
+    height: auto;
+    max-height: 500px;
   }
+  
   section.main .control {
     display: none;
   }
