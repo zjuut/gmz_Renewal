@@ -127,9 +127,6 @@ $(function(){
     $('.hd_btm_lt .gnb').prepend('<li><a href="#">HOME</a></li>');
     $('.top_ad_sub p').html('올 여름 필수품!<br>어라운디 썸머블랑켓 v4');
 
-    // Common : Product
-    $('.product_wr').wrap('<div class="product_box"></div>');
-
     // Section : Main
     $('.swiper-slide:eq(0) img').attr('src','images/m-mainbanner-01.jpg');
     $('.swiper-slide:eq(1) img').attr('src','images/m-mainbanner-02.jpg');
@@ -142,9 +139,6 @@ $(function(){
     $('.post_txt_wr:eq(0) > a').prepend($('.post_img:eq(0) img'));
     $('.post_txt_wr:eq(1) > a').prepend($('.post_img:eq(1) img'));
     $('.post_img_wr').remove();
-
-    // Section : Brand
-    $('section.brand ul').wrap('<div class="product_box"></div>');
     
     // Footer
     $('.ft_top .policy li:eq(0) a').text('PC버전');
