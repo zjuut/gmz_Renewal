@@ -833,7 +833,7 @@ section.sns h2.section_tit {
   margin-top: 8px;
 }
 
-.sns_post ul {
+.sns_post {
   display: flex;
   gap: 40px;
 }
