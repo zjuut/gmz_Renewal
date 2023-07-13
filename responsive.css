@@ -116,7 +116,7 @@
   h2.section_tit {
     font-size: 1.6em;
     margin-bottom: 20px;
-    padding: 0 20px;
+    padding-left: 20px;
   }
   h3 {
     font-size: 1.3em;
@@ -132,15 +132,14 @@
   /* Common : Product */
   .product_box {
     overflow-x: auto;
-    padding: 0 20px;
   }
   .product_box::-webkit-scrollbar {
     display: none;
   }
   .product_wr {
-    width: 650px;
+    width: 690px;
     gap: 40px 10px;
-
+    padding: 0 20px;
   }
   .product {
     width: 155px;
