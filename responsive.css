@@ -77,9 +77,6 @@
   .hd_btm_lt .gnb {
     height: 100%;
   }
-  .hd_btm_lt .gnb li:not(:last-child) {
-    margin-right: 20px;
-  }
   .hd_btm_lt .gnb li:first-child {
     position: relative;
   }
@@ -93,15 +90,17 @@
     bottom: 0;
   }
   .hd_btm_lt .gnb a {
-    display: inline-block;
+    font-size: 1.05em;
     line-height: 45px;
     color: #777;
     font-weight: 400;
+    padding: 0 12px;
   }
   .hd_btm_lt .gnb li:first-child a {
     color: #222;
     font-weight: 500;
   }  
+
   .hd_btm_rt {
     display: none;
   }
@@ -232,6 +231,8 @@
   }
   .sub_menu .menu span {
     font-size: 0.75em;
+    display: block;
+    margin-top: 4px;
   }
 
   /* Section : TOP AD */
@@ -435,7 +436,7 @@ section.style .product {
 
   .post_txt_wr > a {
     width: 100%;
-    display: inline-block;
+    display: block;
   }
   .post_txt_wr > a img {
     width: 100%;
@@ -593,9 +594,11 @@ section.style .product {
   .ft_btm .cs,
   .ft_btm .bank {
     flex: 1;
+    width: 50%;
     text-align: center;
   }
   .ft_btm .company {
+    width: 100%;
     text-align: center;
     margin-top: 140px;
   }

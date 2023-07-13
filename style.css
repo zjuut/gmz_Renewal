@@ -145,16 +145,13 @@ button {
 }
 .hd_btm_lt .gnb_wr {
   display: inline-block;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 .hd_btm_lt .gnb {
   display: flex;
 }
 .hd_btm_lt .gnb li {
   position: relative;
-}
-.hd_btm_lt .gnb li:not(:last-child) {
-  margin-right: 20px;
 }
 @media (hover: hover){
   .hd_btm_lt .gnb li:hover::after {
@@ -164,13 +161,15 @@ button {
     height: 2px;
     background-color: #222;
     position: absolute;
-  }  
+  }
 }
 .hd_btm_lt .gnb a {
+  display: block;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #444;
+  padding: 0 10px;
 }
 @media (hover: hover){
   .hd_btm_lt .gnb li:hover a {
