@@ -807,7 +807,10 @@ section.sns h2.section_tit {
 }
 
 .sns_profile {
+  display: inline-block;
   margin-bottom: 70px;
+}
+.sns_profile a {
   display: flex;
   justify-content: center;
   align-items: center;
