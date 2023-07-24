@@ -950,6 +950,7 @@ section.sns h2.section_tit {
   right: 30px;
   z-index: 100;
   border-radius: 10px;
+  display: none;
 }
 .top_btn i {
   font-size: 28px;
