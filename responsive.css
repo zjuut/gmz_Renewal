@@ -73,10 +73,17 @@
   .hd_btm_lt .gnb {
     height: 100%;
   }
-  .hd_btm_lt .gnb li:first-child {
-    position: relative;
+  .hd_btm_lt .gnb a {
+    padding: 0 12px;
   }
-  .hd_btm_lt .gnb li:first-child::after {
+  .hd_btm_lt .gnb li:first-child a {
+    padding-left: 0;
+  }
+  .hd_btm_lt .gnb li:first-child span {
+    position: relative;
+    display: inline-block;
+  }
+  .hd_btm_lt .gnb li:first-child span::after {
     content: '';
     display: block;
     width: 100%;
@@ -85,14 +92,13 @@
     position: absolute;
     bottom: 0;
   }
-  .hd_btm_lt .gnb a {
+  .hd_btm_lt .gnb span {
     font-size: 1.05em;
     line-height: 45px;
     color: #777;
     font-weight: 400;
-    padding: 0 12px;
   }
-  .hd_btm_lt .gnb li:first-child a {
+  .hd_btm_lt .gnb li:first-child span {
     color: #222;
     font-weight: 500;
   }  

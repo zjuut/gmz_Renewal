@@ -150,29 +150,29 @@ button {
 .hd_btm_lt .gnb {
   display: flex;
 }
-.hd_btm_lt .gnb li {
+.hd_btm_lt .gnb a {
+  padding: 0 10px;
+}
+.hd_btm_lt .gnb span {
   position: relative;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #444;
 }
 @media (hover: hover){
-  .hd_btm_lt .gnb li:hover::after {
+  .hd_btm_lt .gnb a:hover span::after {
     content: '';
     display: block;
     width: 100%;
     height: 2px;
     background-color: #222;
     position: absolute;
+    left: 0;
   }
 }
-.hd_btm_lt .gnb a {
-  display: block;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  color: #444;
-  padding: 0 10px;
-}
 @media (hover: hover){
-  .hd_btm_lt .gnb li:hover a {
+  .hd_btm_lt .gnb a:hover span {
     color: #222;
   }
 }

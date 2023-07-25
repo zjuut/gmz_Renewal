@@ -124,7 +124,7 @@ $(function(){
   else if(window.matchMedia('screen and (max-width : 768px)').matches){
     /* html Change */
     // Header
-    $('.hd_btm_lt .gnb').prepend('<li><a href="#">HOME</a></li>');
+    $('.hd_btm_lt .gnb').prepend('<li><a href="#"><span>HOME</span></a></li>');
     $('.top_ad_sub p').html('올 여름 필수품!<br>어라운디 썸머블랑켓 v4');
 
     // Section : Main
