@@ -73,9 +73,6 @@
   .hd_btm_lt .gnb {
     height: 100%;
   }
-  .hd_btm_lt .gnb a {
-    padding: 0 12px;
-  }
   .hd_btm_lt .gnb span {
     font-size: 1.05em;
     line-height: 45px;
