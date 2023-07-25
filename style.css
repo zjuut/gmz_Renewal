@@ -152,6 +152,7 @@ button {
 }
 .hd_btm_lt .gnb a {
   padding: 0 10px;
+  display: block;
 }
 .hd_btm_lt .gnb span {
   position: relative;
