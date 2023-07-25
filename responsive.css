@@ -74,7 +74,7 @@
     height: 100%;
   }
   .hd_btm_lt .gnb a {
-    padding: 0 12px;
+    /* padding: 0 12px; */
   }
   .hd_btm_lt .gnb li:first-child a {
     padding-left: 0;
