@@ -61,7 +61,7 @@
   }
   .hd_btm_lt {
     height: 100%;
-    padding: 0 20px;
+    padding: 0 8px;
   }
   .hd_btm_lt .menu {
     display: none;
@@ -74,10 +74,7 @@
     height: 100%;
   }
   .hd_btm_lt .gnb a {
-    /* padding: 0 12px; */
-  }
-  .hd_btm_lt .gnb li:first-child a {
-    padding-left: 0;
+    padding: 0 12px;
   }
   .hd_btm_lt .gnb li:first-child span {
     display: inline-block;
